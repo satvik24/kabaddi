@@ -2,6 +2,18 @@
 <head>
   <style>
     body{background-image:url("qwerty.jpg");}
+    #myContainer {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  background: yellow;
+}
+#myAnimation {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
   </style>
     <title>!GAME*MAN!(Advance)</title>
 </head>
@@ -73,18 +85,6 @@ function myFunction() {
     <center><textarea rows="4" cols="50">
       start from here
       </textarea></center>
-     <p id="demo"></p>
-<script>
-function myFunction() {
-    var txt;
-    if (confirm("Press OK") == true) {
-        txt = "You pressed OK!Your progress is saved";
-    } else {
-        txt = "You pressed Cancel!your progress will not be saved!";
-    }
-    document.getElementById("demo").innerHTML = txt;
-}
-    </script></center>
     <h2>want to know all matches of season5 so visit=> https://satvik24.github.io/Game-man/
     <h3>Want to learn how to create web so go to-</h3>
     <center><p><a href="https://www.w3schools.com/html/">Learn how to use html5 and html tags</a></p></center>
@@ -93,6 +93,31 @@ function myFunction() {
     <center><h3>FIRST MAKE A ID THEN MAKE WEB.NOW HOW TO MAKE WEBSITE-First you will find "Branch-master"click on it and write "gh-pages"ALERT:make everything
     on "gh-pages"only.And then go to settings and go down you will find"your site is published at https://xxxx.github.io/xxxxxxx/ click on it and your website is 
     made!</h3></center>
+      <center><h2>Crazy time!</h2></center>
+      <p>
+<button onclick="myMove()">Click Me</button> 
+</p>
+
+<div id ="myContainer">
+<div id ="myAnimation"></div>
+</div>
+
+<script>
+function myMove() {
+  var elem = document.getElementById("myAnimation");   
+  var pos = 0;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + 'px'; 
+      elem.style.left = pos + 'px'; 
+    }
+  }
+}
+</script>
     <center><h1>--------------------------------------------------------------------------------------------------------------</h1></center>
     <center><h1>PLAY GAMES AND BE HEALTHY!</h1></center>
     <center><h2>------------------that's  all matches will start from 28 july only------------------(this site was updated on 08/07/17)</h2></center>
