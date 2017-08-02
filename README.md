@@ -1,2 +1,2 @@
 # satvik.24
-this website is of cricket only.
+WEB UNDER CONSTRUCTION!WE ARE UPDATING THE WEB! THIS WEB WILL BE OPEN FROM 10/08/2017
