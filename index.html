@@ -1,6 +1,48 @@
 <html
 <head>
   <style>
+    
+    dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+    
+    
     body{background-image:url("qwerty.jpg");}
    
 .vertical-menu {
@@ -33,10 +75,18 @@
      
   </style>
     <title>!GAME*MAN!(pro,Advance)</title>
-  <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-<body onload="startGame()">
+<body>
+  <div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="https://www.google.co.in/">Link 1</a>
+    <a href="https://www.youtube.com/">Link 2</a>
+    <a href="https://www.w3schools.com/html/">Link 3</a>
+  </div>
+</div>
+
     <h2><marquee>Hello friends!welcome .Get news about live kabaddi or last matches played only!made by:SATVIK TIWARI</marquee></h2>
     <center><h2>TIME!</h2>
    <button type="button"
@@ -82,12 +132,6 @@ window.onclick = function(event) {
    </div>
     <u><center><h2>*ABOUT KABADDI</h2></center></u>
    <h1>For you only</h1>
-
-<div class="vertical-menu">
-  <a href="https://www.google.co.in/" class="active">Google</a>
-  <a href="https://www.youtube.com/">youtube</a>
-  <a href="https://www.w3schools.com/html/">Web classes(free)</a>
-</div>
   
     <center><img src="kabaddi.jpg"></img></center>
     <center><h2>Pro kabaddi starting from 28/07/2017.You can see scores on this site only!Scores of this site is updated in every 5 minutes</h2></center>
