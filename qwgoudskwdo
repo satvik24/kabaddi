@@ -180,46 +180,11 @@ window.onclick = function(event) {
     <center><img src="kabaddi.jpg"></img></center>
     <center><h2>Pro kabaddi starting from 28/07/2017(league started).You can see scores on this site only!Scores of this site is updated in every 5 minutes</h2></center>
     <center><h2>First match of kabaddi season 5,2017</h2></center>
-<center></h2>Let's see kabaddi time table(full)</h2></center>
-<center><a href="http://www.firstpost.com/pro-kabaddi-2017/"></a></center>
-<center>                                   
-                                            
-  
-<table border="5">                      
-  <tr>
-  <th>sorry</th>
-  <th>not shown</th>
-  </tr>
-  <tr>
-  <th>sorry</th>
-  <th>not shown</th>
-  </tr>
-</table>
-</center>
+<center></h2>Let's see kabaddi time table(full)and the previous matches also</h2></center>
+<center><a href="http://www.firstpost.com/pro-kabaddi-2017/">kabbadiinfo/previous matches</a></center>
 
 
-<h3><mark>NEWS OF THE GAME</mark>:-  
-  <a href="http://www.india.com/sports/pro-kabaddi-league-2017-points-table-team-standings-2359829/amp/?gclid=EAIaIQobChMIscD834Xy1QIVQo6PCh1ZzwYJEAAYASAAEgKHc_D_BwE">see points table</a> </h3>
-<br>
- <center><h2>DUE TO HEAVY RAIN IN MUMBAI TODAY'S KABADDI MATCH WAS CANCELED!</h2></center>
-<br>
-<center>
-  
-  
-  <table border="5">                      
-  <tr>
-  <th>sorry</th>
-  <th>not shown</th>
-  </tr>
-  <tr>
-  <th>sorry</th>
-  <th>not shown</th>
-  </tr>
-</table>
-</center>
-
-<h3><mark>NEWS OF THE GAME</mark>:- not shown sorry!. </h3>
-  
+<marquee><p><h2>the matches will be shown soon/ see now a href="http://www.firstpost.com/pro-kabaddi-2017/">kabbadiinfo/previous matches</a></h2></p></marquee>
 
 <h3>CHOOSE YOUR COUNTRY NAME<select>
   <option value="INDIA">INDIA</option>
@@ -230,7 +195,7 @@ window.onclick = function(event) {
   <option value="other">OTHER</option>
 </select>
   
-<h2>CLICK SHOUT BUTTON TO SEND YOUR MESSAGE!give your name for your profile.SHORT URL OF THE WEB IS-  bit.ly/satvik24 </h2>
+<h2>CLICK SHOUT BUTTON TO SEND YOUR MESSAGE!give your name for your profile.SHORT URL OF THE WEB IS- <mark> bit.ly/satvik24 </mark> </h2>
 
 <center><!-- Start HTML Code --><iframe WIDTH="300" HEIGHT="400" title="Shoutbox" src="https://shoutbox.widget.me/start.html?uid=9wjcpyoh" frameborder="0" scrolling="auto"></iframe><script src="https://shoutbox.widget.me/v1.js" type="text/javascript"></script><div id="sbLinks"><a href="https://shoutbox.widget.me">Shoutbox</a>: Free shoutbox for website or blog<br><a href="https://shoutbox-tutorials.blogspot.com">Shoutbox Tutorials</a>: How to get a shoutbox<br><a href="https://guestbook.me">Guestbook</a>: Get a free guestbook for your website<br><a href="https://drag.me/2017/04/23/crush-on-jessica-clements/">YouTuber Jessica Clements</a>: Ngai Chun Cheung about his crush on Jessica Clements<br><a href="https://drag.me/2017/05/09/why-i-quit-jessica-clements/">Model Jessica Clements</a>: Ngai Chun Cheung is reasoning Jessica Clements<br><a href="https://drag.me/2017/05/20/dissecting-my-obsession-with-jessica-clements/">Jessica Clements</a>: Ngai Chun Cheung is dissecting his obsession with Jessica Clements<br><a href="https://www.youtube.com/watch?v=Q2qQWyDO2H0">Thousand Origami Cranes</a>: Leaving a trail of thousand origami cranes by Ngai Chun Cheung<br><a href="https://drag.me">Ngai Chun Cheung</a></div><script>document.getElementById("sbLinks").style.display='none';</script><!-- End HTML Code --></center>  
 
@@ -256,7 +221,7 @@ MEDIA:_
 PLEASE SHARE THE LINK AND COMMENT ABOUT THE THE WEB.IN EVERY 3-2 DAYS
 WE ADD SOMTHING NEW IN THE WEB.
 PROBLEMS:_
-THERE IS A PROBLEM ABOUT SCORES AS SAID BY VIEWERS.WE WILL TRY TO SLOVE
+THERE IS A PROBLEM ABOUT SCORES AS SAID BY VIEWERS.WE WIL\ TRY TO SLOVE
 IT.IT IS DUE TO SOME ERROR CONNECTIONS OF THE WEB.                  
 ---------------------------!THANK YOU!---------------------------- 
   </textarea></center>
@@ -267,7 +232,7 @@ IT.IT IS DUE TO SOME ERROR CONNECTIONS OF THE WEB.
 <!-- end www.htmlcommentbox.com -->
 
 <script>
-function myMove() {
+function myMove() 
   var elem = document.getElementById("myAnimation");   
   var pos = 0;
   var id = setInterval(frame, 10);
